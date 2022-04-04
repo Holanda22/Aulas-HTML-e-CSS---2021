@@ -1,0 +1,267 @@
+body{
+    background-color:#f1f1f1;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.cardapio{
+    width: 30%;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 40%;
+    position: relative;
+}
+.cardapio h2{
+    margin-left: -75%;
+    position: absolute;
+    transform: translate(0, -200%);
+    font-size: 45px;
+    color:#aaaaaa;
+    font-style: oblique;
+    text-decoration: underline;
+}
+.title{
+    font-size: 33px;
+    color:#949494;
+    font-style: oblique;
+    text-decoration: underline;
+    position: relative;
+    margin-top: 85px;
+    margin-left: 18%;
+}
+.comida{
+    background-color:#ffffff;
+    padding: 20px;
+    margin-top: 5px;
+    color:#44b7ce;
+    font-size: 30px;
+    width: 290px;
+    height: 200px;
+}
+.comida:hover{
+    color: #2e7c8b;
+}
+#brigadeiro{
+    margin-left: -80%;
+    margin-top: 30%;
+}
+#palha{
+    margin-left: 0%;
+    margin-top: -49%;
+}
+#brownie{
+    margin-left: 80%;
+    margin-top: -49%;
+}
+#mousse{
+    margin-left: -80%;
+    margin-top: 28%;
+}
+#pudim{
+    margin-left: 0%;
+    margin-top: -49%;
+}
+#churros{
+    margin-left: 80%;
+    margin-top: -48%;
+}
+#b{
+    margin-left: -5px;
+    margin-top: 15px;
+}
+#b:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+#w{
+    margin-left: -5px;
+    margin-top: 10px;
+}
+#w:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+#p{
+    margin-left: -5px;
+    margin-top: 19px;
+}
+#p:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+#m{
+    margin-left: -5px;
+    margin-top: 10px;
+}
+#m:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+#u{
+    margin-left: -5px;
+    margin-top: 10px;
+}
+#u:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+#c{
+    margin-left: -5px;
+    margin-top: 10px;
+}
+#c:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.logo{
+    height: 95px;
+    margin-top: -5px;
+}
+.marca{
+    font-size: 30px;
+    color: white;
+    font-style: oblique;
+    position: relative;
+    margin-left: 14%;
+}
+.marca h1{
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -43%);
+    text-align: center;
+}
+.menu{
+    text-align: right;
+    position: relative;
+}
+.menu .botoes input{
+    position: absolute;
+    top: 50%;
+    transform: translate(0, 19%);
+}
+input{
+    height: 70px;
+    width: 115px;
+    background-color: #8AC4D0;
+    border-color: #8AC4D0;
+    border-width: 1px;
+    border-radius: 5%;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+#inicio{
+    margin-right: 52%;
+}
+#choco{
+    margin-right: 44%;
+}
+#assados{
+    margin-right: 36%;
+}
+#gelados{
+    margin-right: 28%;
+}
+#fast{
+    margin-right: 20%;
+}
+.v{
+    height: 60px;
+    width: 150px;
+    background-color: #8AC4D0;
+    border-color: #8AC4D0;
+    border-width: 1px;
+    border-radius: 20%;
+    font-size: 18px;
+    text-align: center;
+    font-variant: small-caps;
+}
+.mapa{
+    background-color: #44b7ce;
+    margin-top: 560px;
+    height: 300px;
+    position: relative;
+}
+#map1{
+    margin-left: 16%;
+    position: absolute;
+    top: 15%;
+}
+#map2{
+    margin-left: 33%;
+    position: absolute;
+    top: 15%;
+}
+#map3{
+    margin-left: 50%;
+    position: absolute;
+    top: 15%;
+}
+dt{
+    font-weight: bold;
+    font-size: 16px;
+}
+dt{
+    font-size: 16px;
+}
+.a{
+    font-size: 30px;
+    color: #0e0e0e;
+}
+.ingredientes{
+    font-size: 30px;
+    margin-left: 20%;
+}
+.form{
+    margin-top: -1%;
+    margin-left: 13%;
+}
+.recei{
+    position: absolute;
+    margin-left: 17%;
+}
+.recei h3{
+    font-size: 30px;
+    color: #6d6d6d;;
+}
+li{
+    font-size: 20px;
+}
+option{
+    font-size: 20px;
+    background-color: rgb(255, 208, 0);
+}
+.mododefazer{
+    margin-top: 5%;
+    margin-left: 1%;
+}
+.foto{
+    margin-left: 15%;
+    margin-top: 5px;
+}
+.fassados{
+    margin-top: -8%;
+    margin-left: 9%;
+}
+.a{
+    background-color: rgb(255, 208, 0); 
+    width: 900px;
+    height: 855px;
+    margin-left: 24%;
+}
+.a h2{
+    text-align: center;
+    margin-left: -15%;
+    text-decoration: underline;
+}
+.a h3{
+    text-align: center;
+    text-decoration: underline;
+}
+.i{
+    margin-left: -40%;
+}

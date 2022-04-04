@@ -1,0 +1,64 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(fundonetflix.jpg);
+    background-size: cover;
+}
+.logo{
+    margin-top: -55px;
+    margin-left: 25px;
+}
+.botão{
+    margin-top: -35px;
+    margin-left: 93%;
+}
+.idioma{
+    margin-top: -125px;
+    margin-left: 84%;
+}
+.menu{
+    margin-left: 0%;
+    text-align: center;
+    margin-top: 12%;
+    color: white;
+}
+.titulo{
+    font-size: 58px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.um{
+    font-size: 28px;
+}
+.dois{
+    font-size: 18px;
+}
+.botao{
+    background-color: red;
+    border-radius: 10%;
+    border-color: red;
+    width: 78px;
+    height: 35px;
+    font-size: 16px;
+    color: white;
+}
+.email{
+    color: rgb(119, 119, 119);
+    height: 55px;
+}
+.cadastro{
+    margin-left: 28%;
+}
+.botao2{
+    color: white;
+    background-color: red;
+    border-color: red;
+    height: 62px;
+    width: 150px;
+    font-size: 26px;
+    text-align: center;
+}
+.link{
+    margin-left: 82%;
+    text-align: center;
+    margin-top: -25px;
+}

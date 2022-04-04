@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <title> Netflix Brasil - Watch TV Shows Online, Watch Movies Online </title>
+        <link rel="stylesheet" href="estilo.css" type="text/css">
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <div class="logo">
+            <img src="logo.png" width="200px">
+        </div>
+        <div class="idioma">
+            <form class="lingua" method="post">
+                <select  onchange="location.href=this.value" style="width: 108px; height: 35px; text-align: center; font-size: 14px; background-color: black; color: white; border-radius: 5%; border-width: 1px; border-color: white;">
+                         <option value="netflixingles.html">English</option>
+                         <option value="netflix.html">Português</option>
+                </select>
+            </form>
+        </div>
+        <div class="botão">
+            <input class="botao" type="submit" value="Sing in"/>
+        </div> 
+        <div class="menu">
+            <p class="titulo"> Unlimited movies, TV <br> shows, and more.</p>
+            <p class="um"> Watch anywhere. Cancel anytime. </p>
+            <p class="dois"> Ready to watch? Enter your email to create or restart your membership. </p>
+        </div>
+        <div class="cadastro">
+            <form method="post">
+                <input class="email" type="email" size="58" maxlength="50" name="Email" value="Email address" style="font-size: 17px;">
+                <input class="botao2" type="submit" value="Get started">
+            </form>
+        </div>        
+    </body>
+</html>
